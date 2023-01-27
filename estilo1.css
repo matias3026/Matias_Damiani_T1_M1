@@ -1,13 +1,15 @@
 * {
     margin:0; 
     padding:0;
+    box-sizing: border-box;
 }
 
 body{
     background-color: white;
 }
 
-.titulo{    
+.titulo{   
+    -webkit-text-stroke:#fff .9px; 
     color:black ;
     border: 5px solid white;
     font-size: x-large;
@@ -18,7 +20,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;   
 }
-#fechas{
+#eventos{
     width: 100%;
     height: 50px;
     padding-top: 14px;
@@ -30,7 +32,7 @@ body{
 }
 
 #log{
-    background-color: red;   
+    background-color: white;   
     border: black 1px solid;
     width: 150px;
 
@@ -40,13 +42,13 @@ body{
 }
 
 nav{
-    border:solid 5px blue;
+    /*border:solid 5px blue;*/
     position: relative;
     display: flex;
     flex-direction: column;
     width: 20%;
     height:500px ;
-    top: -150px;
+    top: -158px;
     align-items: center;
     align-content: space-between;
     justify-content: space-between ;
@@ -56,7 +58,7 @@ nav{
 }
 
 .text{
-    border: solid black 5px;
+    /*border: solid black 5px;*/
     width: 80%;
     height: 500px;
     position: relative;
@@ -70,12 +72,51 @@ nav{
 }
 
 .Fecha{
-    position: relative;
+    
     
     align-items: center;
     align-content: space-between;
     justify-content: space-between ;
     justify-content: space-around;
+    padding: 63px;
+}
+
+/*Contacto */
+
+.contacto{
+    width: 80%;
+    height: 100px;
+    
+    display: flex;
+    display: block;
+    font-size: xx-large;
+    
+    margin-left: 25%;
+    margin-top: -590px;
 
 
 }
+
+.t1{
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+
+.t2{
+    margin-top:50px;
+}
+
+
+
+   
+    
+    
+   
+    
+    
+
+
+
+
+
