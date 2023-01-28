@@ -7,6 +7,13 @@
 body{
     background-color: white;
 }
+header{
+    position: sticky;
+    top:0px;
+    margin-bottom: 10px;
+   
+}
+
 
 .titulo{   
     -webkit-text-stroke:#fff .9px; 
@@ -23,7 +30,7 @@ body{
 #eventos{
     width: 100%;
     height: 50px;
-    padding-top: 14px;
+    padding-top: 10px;
     text-align: center ;
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -36,49 +43,62 @@ body{
     border: black 1px solid;
     width: 150px;
 
-    position: relative;
-    top: -110px;
-    left: 75%;
+    position: sticky;
+    margin-top: -104px;
+    margin-left: 75%;
 }
 
-nav{
-    /*border:solid 5px blue;*/
-    position: relative;
-    display: flex;
-    flex-direction: column;
+.cnav{
+    position: fixed;
     width: 20%;
-    height:500px ;
-    top: -158px;
-    align-items: center;
-    align-content: space-between;
-    justify-content: space-between ;
-    justify-content: space-around;
+   
     
-      
+   
+}
+
+
+nav,a{
+   
+   margin-left: 5px;
+    
+   display: block;    
+   width: 20%;
+   height:150px ;
+   margin-top: -40px;
+  
+}
+
+.contener_todo{
+    
+    width: 100%;    
+    margin-top: 120px
+
+
 }
 
 .text{
     /*border: solid black 5px;*/
     width: 80%;
-    height: 500px;
+    height: 150px;
     position: relative;
     left: 21%;
-    top: -659px;
-    align-items: center;
-    align-content: space-between;
-    justify-content: space-between ;
-    justify-content: space-around;
-
+    margin-top: -165px;
+    
+    
+    
+    
+   
 }
 
 .Fecha{
+    margin-top: 10px;
+    display: block;
+    padding: 3%;
     
     
-    align-items: center;
-    align-content: space-between;
-    justify-content: space-between ;
-    justify-content: space-around;
-    padding: 63px;
+    
+    
+    
 }
 
 /*Contacto */
@@ -89,10 +109,12 @@ nav{
     
     display: flex;
     display: block;
-    font-size: xx-large;
+    font-size:medium;
+    font-style: normal;
+    font-weight: bold;
     
     margin-left: 25%;
-    margin-top: -590px;
+    margin-top: -10px;
 
 
 }
