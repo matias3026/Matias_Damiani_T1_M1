@@ -51,14 +51,10 @@ header{
 .cnav{
     position: fixed;
     width: 20%;
-   
-    
-   
 }
 
 
 nav,a{
-   
    margin-left: 5px;
     
    display: block;    
