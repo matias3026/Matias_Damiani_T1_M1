@@ -11,9 +11,17 @@ header{
     position: sticky;
     top:0px;
     margin-bottom: 10px;
-   
+
 }
 
+.ocultarestilo1{
+    display: none;
+}
+.ocultarestilo1b{
+    display: none;
+
+    
+}
 
 .titulo{   
     -webkit-text-stroke:#fff .9px; 
@@ -55,13 +63,16 @@ header{
 
 
 nav,a{
-   margin-left: 5px;
-    
-   display: block;    
-   width: 20%;
-   height:150px ;
-   margin-top: -40px;
-  
+    margin-left: 5px;
+        
+    display: block;    
+    width: 20%;
+    height:150px ;
+    margin-top: -40px;
+
+}
+a{
+    cursor:pointer;
 }
 
 .contener_todo{
@@ -79,11 +90,7 @@ nav,a{
     position: relative;
     left: 21%;
     margin-top: -165px;
-    
-    
-    
-    
-   
+
 }
 
 .Fecha{
@@ -126,13 +133,6 @@ nav,a{
 }
 
 
-
-   
-    
-    
-   
-    
-    
 
 
 
