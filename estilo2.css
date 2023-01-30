@@ -69,7 +69,8 @@ a{
     
     font-size: 25px;
     text-decoration: none;
-    cursor:pointer;
+    cursor:crosshair;
+    background-color:lightblue;
                 
 }
 
@@ -90,7 +91,7 @@ a{
 }
 
 
-#Logo{
+.Logo{
     
     width: 20%;
     height:207px;
