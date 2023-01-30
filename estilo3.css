@@ -3,7 +3,9 @@
     padding:0;
     box-sizing: border-box;
 }
-
+body{
+    background-color:black;
+}
 .ocultarestilo1{
     
     position: relative;
@@ -27,8 +29,10 @@
     text-rendering: optimizeLegibility;
 
 }
-p{
+span{
     color: rgb(203, 243, 255);
+    font-size: 15px;
+    
 }
 .redes{
     /* border: 3px solid red; */
@@ -151,7 +155,7 @@ h2{
 
 .contener_todo{
     width: 100%;
-    height: 750px;
+    height: 600px;
     border: 3px solid;
     border-top: 3px solid  rgb(171, 210, 244);
     
@@ -159,10 +163,10 @@ h2{
 
 .text{
     width: 100%;
-    height: 420px;
+    height: 600px;
     border: 5px solid black;
     border-top:5px solid  rgb(171, 210, 244);
-       
+    margin-bottom: 100px;   
     text-align: justify;   
     background-image: url(./img/design1_image2.jpg);
     background-attachment: fixed;
@@ -181,12 +185,19 @@ h3{
     color:rgba(243, 179, 248, 0.972);  
     display: inline-block;
     font-family: sans-serif; 
-    font-size: 30px; 
+    font-size: 40px; 
 }
+
+
 
 /* galeria */
 
 
+.galerias{
+    width: 100%;
+    height: 60px;
+    
+}
 
 .im{    
     display:inline;
@@ -201,4 +212,44 @@ h3{
 }
 .galeria {overflow:hidden;}
  
+.Fecha{
+    padding: 2%;
+}
+.galeria{
+    width: 100%;    
+    height:350px ;
+    
+}
 
+p{
+    font-size: 20px;
+    color: rgb(203, 243, 255);
+
+}
+
+/*CONTACTO*/
+
+.t1,.t2{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5%;
+    margin-right: 50px;
+
+
+}
+
+.contacto{
+    width: 100%;
+    height: 360px;
+    border: 5px solid silver;
+    text-align: center;
+    background-color:silver;
+    
+        
+}
+
+.contacclass{
+    margin-left: 42%;
+    font-size: 35px;
+    
+}
