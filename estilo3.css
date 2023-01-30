@@ -1,4 +1,121 @@
 * {
     margin:0; 
     padding:0;
+    box-sizing: border-box;
+    
+    
+}
+
+
+.ocultarestilo1{
+    
+    position: relative;
+    border: 3px solid black; 
+    width: 100%;
+    height: 12vh;
+    background-color: black;
+
+}
+
+
+.sitio{
+    /* border:3px solid black; */
+    width: 30%;
+    height:50px;
+    position:relative;
+    margin-top:-30px;
+    margin-left: 450px;
+    color: silver;
+    font-size:  20px;
+    
+}
+
+.redes{
+    /* border: 3px solid red; */
+    width: 300px;
+    height:60px;
+    float: right;
+    margin-top:-70px;
+    margin-right:10px;
+    display:inline;
+
+
+}
+
+.redico1,.redico2,.redico3{
+    position: relative;
+    width: 50px;
+    float: right;
+    border:3px solid silver; 
+    
+}
+.redico1{
+    background-color: turquoise;
+    border-radius: 50%;
+}
+.redico2{
+    background-color: violet;
+    border-radius: 50%;
+}
+.redico3{
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.ligah{
+    /* border: 3px solid red; */
+    width:75px;
+    display: block;
+    font-size:20px;
+    margin-left:15px;
+    margin-bottom: -15px;
+    
+    font-style: bold;
+}
+.titulo{
+    width: 100%;  
+    height:10vh;  
+    border: 5px solid silver;
+    background-color: silver;
+}
+h1{
+    margin-left: 31%;
+    margin-top:10px;
+}
+
+.ocultarestilo1b{
+    width: 100%;
+    height: 10vh;
+    border:5px solid black;
+    
+}
+
+nav{
+    margin-left: 440px;
+    font-size: 25px;
+    margin-top:12px;
+    
+}
+
+a{
+    text-decoration: none;
+    margin: 10px;
+}
+.ocultarestilo2{
+    display: none;
+
+}
+.ocultarestilo1c{
+    display: none;
+
+}
+.l{
+    color:silver;
+    font-style: bold;
+    display: block;
+    margin-top:15px;
+}
+
+main{
+    background-color: grey;
 }
