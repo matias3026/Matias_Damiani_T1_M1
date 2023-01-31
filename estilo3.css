@@ -5,7 +5,16 @@
 }
 body{
     background-color:black;
+
 }
+
+header{
+    position: sticky;
+    top:0px;
+}
+
+
+
 .ocultarestilo1{
     
     position: relative;
@@ -99,7 +108,15 @@ nav{
 a{
     text-decoration: none;
     margin: 10px;
+    
 }
+
+a:hover{
+    background-color:lightblue;
+    cursor: crosshair;
+    
+}
+
 .ocultarestilo2{
     display: none;
 
@@ -170,6 +187,9 @@ h2{
     text-align: justify;   
     background-image: url(./img/design1_image2.jpg);
     background-attachment: fixed;
+    background-blend-mode: color-burn;
+    
+    
 }
 .y{
     -webkit-text-stroke:rgba(243, 179, 248, 0.972); 
@@ -223,7 +243,8 @@ h3{
 
 p{
     font-size: 20px;
-    color: rgb(203, 243, 255);
+    color: rgb(117, 250, 255);
+    opacity: 10.0;
 
 }
 
@@ -234,6 +255,10 @@ p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 5%;
     margin-right: 50px;
+    color: rgb(117, 250, 255);
+    
+    
+    
 
 
 }
@@ -244,6 +269,10 @@ p{
     border: 5px solid silver;
     text-align: center;
     background-color:silver;
+    background-image: url(./img/design1_image1.jpg);
+    background-position: center ;
+    background-blend-mode: color-burn;
+    
     
         
 }
