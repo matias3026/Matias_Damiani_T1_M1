@@ -11,6 +11,9 @@ body{
 header{
     position: sticky;
     top:0px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 
@@ -141,6 +144,7 @@ main{
     width: 100%;    
     background-color: rgb(171, 210, 244);
     border: 5px solid rgb(171, 210, 244);
+    
 }
 
 .htmltit{
@@ -285,13 +289,26 @@ p{
 
 /*Game information  */
 
+
+.htmltit{
+    font-size: 30px;
+    display:flex;
+    align-items: center;
+    float: center;
+    margin-left: 565px;
+    
+
+
+
+}
+
 .contenergameinfo{
 
     background-color: gray;
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
-    height: 700px;
+    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -307,12 +324,14 @@ section{
     margin-right:15px ;
     display: flex;
     width: 70%;
-    height: 695px;
+    height: 900px;
+    padding: 5%;
     
     
     align-items: center;
     flex-direction: column;  
     justify-content: space-between;
+    text-indent: 10px;
     
 }
 
@@ -328,4 +347,5 @@ section{
 .listanegra{
     color: black;
     font-style: bold;
+
 }
