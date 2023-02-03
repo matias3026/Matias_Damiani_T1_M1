@@ -1,0 +1,205 @@
+* {
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:black;
+}
+/*.....................H-E-A-D-E-R
+Parte SUPERIOR*/
+
+header{
+    display: flex;
+    background-color: gainsboro;
+    width: 100%;
+    height: 24vh;
+    position: sticky;
+    top: 0px;
+    
+}
+
+.contenedor_barra{
+    
+    background-color:black;
+    width: 100%;
+    height: 15vh;    
+}
+
+.barra_superior{
+    margin-top: 3vh;
+    width: 100%;
+    display: flex;    
+    justify-content: space-between;
+    
+}
+h1{
+    color:gold;
+    font-family: ;
+    font-size: 35px;
+    width: 75;
+}
+.sitio{
+       
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+.oficial{
+    
+    color:violet;
+    display: flex;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+#log{
+    
+    width: 60px;
+    height: 60px;
+    
+    border-radius: 25%;
+    background-color: rgba(255, 255, 255, 0.833);
+    filter: brightness(120%);
+    border: 2px solid slategray;
+}
+
+.redico1,.redico2,.redico3{
+    
+   
+    width: 50px;
+    float: right;
+    border:3px solid silver; 
+ 
+}
+.redico1{
+    background-color: turquoise;
+    border-radius: 50%;
+}
+.redico2{
+    background-color: violet;
+    border-radius: 50%;
+}
+.redico3{
+    background-color: blue;
+    border-radius: 50%;
+}
+
+/*.....................H-E-A-D-E-R
+Parte iNFERIOR*/
+
+.barra_inferior{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:black;
+    align-items: center;
+    font-size: 25PX;
+    border-top: 1px solid silver;
+    border-bottom:  1px solid silver;
+    
+       
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+.nombre_html{
+    background-color:white;    
+    display: flex;    
+    justify-content: space-evenly;
+    align-self: center;
+    width: 100%;
+    height: 10vh;
+    border-bottom: 5px solid black;
+    border-top: 1px solid silver;
+
+   
+    
+}
+.subtituloRules{
+    display: flex;
+    font-size: xx-large;
+    /* margin-right: 95px; */
+    
+     
+    
+
+}
+/* CUERPO DE RULES */
+
+.contenergameinfo{
+    
+    background-color: gray;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+    
+    
+}
+
+section{
+    background-color: white;
+    border-style: double;
+    border-width: 15px;
+    border-color: goldenrod;
+    
+    margin-left: 15px;
+    margin-right:15px ;
+    display: flex;
+    width: 70%;
+    height: 900px;
+    padding: 5%;
+    
+    
+    align-items: center;
+    flex-direction: column;  
+    justify-content: space-between;
+    text-indent: 10px;
+    
+}
+
+.gameinfo2{
+    
+    
+}
+
+.reglas{
+    color: black;
+}
+
+.listanegra{
+    color: black;
+    font-style: bold;
+
+}
+
+.letras{
+    margin-left: 15px;
+    
+}
+a{
+    
+}
