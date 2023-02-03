@@ -136,75 +136,28 @@ a{
     font-size: xx-large;
     /* margin-right: 95px; */
     
-     
-    
-
 }
-/* CUERPO DE RULES */
 
-.contenergameinfo{
-    
+
+/*cuerpo del html */
+
+.contiene_tab{
+
     background-color: gray;
-    margin-top: 2%;
+   
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
-    height: 1000px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-
-    
-    
-}
-
-section{
-    background-color: white;
-    border-style: double;
-    border-width: 15px;
-    border-color: goldenrod;
-    
-    margin-left: 15px;
-    margin-right:15px ;
-    display: flex;
-    width: 70%;
-    height: 900px;
-    padding: 5%;
-    
-    
-    align-items: center;
-    flex-direction: column;  
-    justify-content: space-between;
-    text-indent: 10px;
-    
-}
-
-.gameinfo2{
-    
-    
-}
-
-.reglas{
-    color: black;
-}
-
-.listanegra{
-    color: black;
-    font-style: bold;
 
 }
 
-.letras{
-    margin-left: 15px;
-    
-}
-a{
-    
-}
 
-.table{
+.tablita{
     display: flex;
    
     width: 100%;
@@ -218,3 +171,6 @@ th, td {
         border: 1px solid #000;
         border-collapse: collapse;
      }
+
+
+    
