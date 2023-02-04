@@ -241,3 +241,8 @@ tbody{
     margin-bottom: +10%;
 }
 
+.masInfo2{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
