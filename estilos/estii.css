@@ -491,7 +491,24 @@ section{
     color: black;
 }
 
-@media screen {
-    
+@media(max-width:575px){
+    header,.BARRAALTA,.BARRACENTRO,.BARRAALTA,h1{
+        display: flex;
+        
+        
+        
+    }
+
+    .caja_redes,.logo{
+        display: none;
+
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
     
 }
